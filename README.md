@@ -8,7 +8,10 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**3 notes** across 3 topics
+**4 notes** across 4 topics
+
+### data
+- [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
 
 ### pandas
 - [Percentages straight from `value_counts`](pandas/value-counts-normalize.md)
