@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**4 notes** across 4 topics
+**5 notes** across 4 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -17,6 +17,7 @@ Regenerate the index with `python build_index.py`.
 - [Percentages straight from `value_counts`](pandas/value-counts-normalize.md)
 
 ### python
+- [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
 - [Self-documenting f-strings with `=`](python/self-documenting-f-strings.md)
 
 ### sql
