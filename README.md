@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**7 notes** across 4 topics
+**8 notes** across 4 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -20,6 +20,7 @@ Regenerate the index with `python build_index.py`.
 ### python
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
 - [Self-documenting f-strings with `=`](python/self-documenting-f-strings.md)
+- [Sort by several keys, some descending](python/sort-multiple-keys.md)
 
 ### sql
 - [Running totals with `SUM() OVER (ORDER BY ...)`](sql/running-total-window.md)
