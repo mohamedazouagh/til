@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**8 notes** across 4 topics
+**9 notes** across 4 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -23,6 +23,7 @@ Regenerate the index with `python build_index.py`.
 - [Sort by several keys, some descending](python/sort-multiple-keys.md)
 
 ### sql
+- [Conditional aggregates with `FILTER (WHERE ...)`](sql/filter-clause-conditional-aggregates.md)
 - [Running totals with `SUM() OVER (ORDER BY ...)`](sql/running-total-window.md)
 - [Upsert in SQLite with `ON CONFLICT ... DO UPDATE`](sql/upsert-on-conflict.md)
 
