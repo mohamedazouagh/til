@@ -8,12 +8,13 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**10 notes** across 4 topics
+**11 notes** across 4 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
 
 ### pandas
+- [Per-group shares with `groupby().transform`](pandas/groupby-transform-share.md)
 - [Join on the nearest earlier date with `pd.merge_asof`](pandas/merge-asof-nearest-earlier.md)
 - [Percentages straight from `value_counts`](pandas/value-counts-normalize.md)
 
