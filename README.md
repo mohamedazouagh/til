@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**13 notes** across 5 topics
+**14 notes** across 5 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -17,6 +17,7 @@ Regenerate the index with `python build_index.py`.
 - [Find when a string appeared or vanished with `git log -S` / `-G`](git/log-pickaxe-s-vs-g.md)
 
 ### pandas
+- [Binning numbers: `pd.cut` vs `pd.qcut`](pandas/cut-vs-qcut.md)
 - [Per-group shares with `groupby().transform`](pandas/groupby-transform-share.md)
 - [Join on the nearest earlier date with `pd.merge_asof`](pandas/merge-asof-nearest-earlier.md)
 - [Percentages straight from `value_counts`](pandas/value-counts-normalize.md)
