@@ -8,13 +8,16 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**14 notes** across 5 topics
+**15 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
 
 ### git
 - [Find when a string appeared or vanished with `git log -S` / `-G`](git/log-pickaxe-s-vs-g.md)
+
+### ml
+- [Stable train/test splits by hashing IDs](ml/hash-based-train-test-split.md)
 
 ### pandas
 - [Binning numbers: `pd.cut` vs `pd.qcut`](pandas/cut-vs-qcut.md)
