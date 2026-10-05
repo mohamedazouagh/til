@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**15 notes** across 6 topics
+**16 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -21,6 +21,7 @@ Regenerate the index with `python build_index.py`.
 
 ### pandas
 - [Binning numbers: `pd.cut` vs `pd.qcut`](pandas/cut-vs-qcut.md)
+- [One row per list item with `DataFrame.explode`](pandas/explode-list-column.md)
 - [Per-group shares with `groupby().transform`](pandas/groupby-transform-share.md)
 - [Join on the nearest earlier date with `pd.merge_asof`](pandas/merge-asof-nearest-earlier.md)
 - [Percentages straight from `value_counts`](pandas/value-counts-normalize.md)
