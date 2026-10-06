@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**16 notes** across 6 topics
+**17 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -27,6 +27,7 @@ Regenerate the index with `python build_index.py`.
 - [Percentages straight from `value_counts`](pandas/value-counts-normalize.md)
 
 ### python
+- [Diff two tallies with `Counter` arithmetic](python/counter-arithmetic.md)
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
 - [Self-documenting f-strings with `=`](python/self-documenting-f-strings.md)
 - [Sort by several keys, some descending](python/sort-multiple-keys.md)
