@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**19 notes** across 6 topics
+**20 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -20,6 +20,7 @@ Regenerate the index with `python build_index.py`.
 - [Stable train/test splits by hashing IDs](ml/hash-based-train-test-split.md)
 
 ### pandas
+- [Two-way counts and row shares with `pd.crosstab`](pandas/crosstab-margins-normalize.md)
 - [Binning numbers: `pd.cut` vs `pd.qcut`](pandas/cut-vs-qcut.md)
 - [One row per list item with `DataFrame.explode`](pandas/explode-list-column.md)
 - [Per-group shares with `groupby().transform`](pandas/groupby-transform-share.md)
