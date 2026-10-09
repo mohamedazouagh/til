@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**23 notes** across 6 topics
+**24 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -35,6 +35,7 @@ Regenerate the index with `python build_index.py`.
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
 - [Self-documenting f-strings with `=`](python/self-documenting-f-strings.md)
 - [Sort by several keys, some descending](python/sort-multiple-keys.md)
+- [`statistics.quantiles` has two methods, and the default differs from pandas](python/statistics-quantiles-methods.md)
 - [Catch length mismatches with `zip(strict=True)`](python/zip-strict.md)
 
 ### sql
