@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**25 notes** across 6 topics
+**26 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -33,6 +33,7 @@ Regenerate the index with `python build_index.py`.
 - [Map numbers to bands with `bisect` instead of an if/elif ladder](python/bisect-range-lookup.md)
 - [Diff two tallies with `Counter` arithmetic](python/counter-arithmetic.md)
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
+- [Compare floats with `math.isclose`, and add `abs_tol` near zero](python/math-isclose-abs-tol.md)
 - [Self-documenting f-strings with `=`](python/self-documenting-f-strings.md)
 - [Sort by several keys, some descending](python/sort-multiple-keys.md)
 - [`statistics.quantiles` has two methods, and the default differs from pandas](python/statistics-quantiles-methods.md)
