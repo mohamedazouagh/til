@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**30 notes** across 6 topics
+**31 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -35,6 +35,7 @@ Regenerate the index with `python build_index.py`.
 - [Diff two tallies with `Counter` arithmetic](python/counter-arithmetic.md)
 - [Use `field(default_factory=list)` for mutable dataclass defaults](python/dataclass-default-factory.md)
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
+- [`itertools.groupby` only groups neighbours — sort first](python/itertools-groupby-needs-sorting.md)
 - [Compare floats with `math.isclose`, and add `abs_tol` near zero](python/math-isclose-abs-tol.md)
 - [Strip a prefix with `str.removeprefix`, not `lstrip`](python/removeprefix-vs-lstrip.md)
 - [Self-documenting f-strings with `=`](python/self-documenting-f-strings.md)
