@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**32 notes** across 6 topics
+**33 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -49,6 +49,7 @@ Regenerate the index with `python build_index.py`.
 - [Compare a row with the previous one using `LAG()` / `LEAD()`](sql/lag-lead-previous-row.md)
 - [`NOT IN` returns nothing when the subquery contains a NULL](sql/not-in-null-trap.md)
 - [Divide safely with `NULLIF(x, 0)` (and `COALESCE` if you want a number back)](sql/nullif-safe-division.md)
+- [Sort by a custom order with `ORDER BY CASE`](sql/order-by-case-custom-order.md)
 - [Fill missing dates with a recursive CTE](sql/recursive-cte-fill-date-gaps.md)
 - [Keep the latest row per group with `ROW_NUMBER()`](sql/row-number-latest-per-group.md)
 - [Running totals with `SUM() OVER (ORDER BY ...)`](sql/running-total-window.md)
