@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**35 notes** across 6 topics
+**36 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -48,6 +48,7 @@ Regenerate the index with `python build_index.py`.
 
 ### sql
 - [Conditional aggregates with `FILTER (WHERE ...)`](sql/filter-clause-conditional-aggregates.md)
+- [`group_concat(x, sep ORDER BY ...)` gives a deterministic order (SQLite 3.44+)](sql/group-concat-order-by.md)
 - [Compare a row with the previous one using `LAG()` / `LEAD()`](sql/lag-lead-previous-row.md)
 - [`NOT IN` returns nothing when the subquery contains a NULL](sql/not-in-null-trap.md)
 - [Divide safely with `NULLIF(x, 0)` (and `COALESCE` if you want a number back)](sql/nullif-safe-division.md)
