@@ -8,13 +8,14 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**36 notes** across 6 topics
+**37 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
 - [Serialise dates and Decimals with `json.dumps(default=...)`](data/json-dumps-default-hook.md)
 
 ### git
+- [Fold a late fix into an older commit with `--fixup` and `--autosquash`](git/commit-fixup-autosquash.md)
 - [Find when a string appeared or vanished with `git log -S` / `-G`](git/log-pickaxe-s-vs-g.md)
 
 ### ml
