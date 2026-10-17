@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**37 notes** across 6 topics
+**38 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -21,6 +21,7 @@ Regenerate the index with `python build_index.py`.
 ### ml
 - [Stable train/test splits by hashing IDs](ml/hash-based-train-test-split.md)
 - [Fit scaling on the training split only](ml/scale-with-train-stats-only.md)
+- [Stratified test split in plain pandas with `groupby(...).sample()`](ml/stratified-split-groupby-sample.md)
 
 ### pandas
 - [Two-way counts and row shares with `pd.crosstab`](pandas/crosstab-margins-normalize.md)
