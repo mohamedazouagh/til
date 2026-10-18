@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**38 notes** across 6 topics
+**39 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -59,5 +59,6 @@ Regenerate the index with `python build_index.py`.
 - [Keep the latest row per group with `ROW_NUMBER()`](sql/row-number-latest-per-group.md)
 - [Running totals with `SUM() OVER (ORDER BY ...)`](sql/running-total-window.md)
 - [Upsert in SQLite with `ON CONFLICT ... DO UPDATE`](sql/upsert-on-conflict.md)
+- [A running total with `ORDER BY` alone lumps ties together (default frame is `RANGE`)](sql/window-default-frame-range-ties.md)
 
 <!-- index:end -->
