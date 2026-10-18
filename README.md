@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**39 notes** across 6 topics
+**40 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -30,6 +30,7 @@ Regenerate the index with `python build_index.py`.
 - [Per-group shares with `groupby().transform`](pandas/groupby-transform-share.md)
 - [Join on the nearest earlier date with `pd.merge_asof`](pandas/merge-asof-nearest-earlier.md)
 - [Find rows missing from the other table with `merge(indicator=True)`](pandas/merge-indicator-anti-join.md)
+- [One missing value turns an int column into float; `Int64` keeps it integer](pandas/nullable-int64-dtype.md)
 - [`pivot` refuses duplicates, `pivot_table` aggregates them](pandas/pivot-vs-pivot-table.md)
 - [Parse messy number columns with `pd.to_numeric(errors="coerce")`](pandas/to-numeric-errors-coerce.md)
 - [Percentages straight from `value_counts`](pandas/value-counts-normalize.md)
