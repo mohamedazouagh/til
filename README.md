@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**40 notes** across 6 topics
+**41 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -50,6 +50,7 @@ Regenerate the index with `python build_index.py`.
 - [Adding a `timedelta` to a `zoneinfo` datetime is wall-clock arithmetic, not elapsed time](python/zoneinfo-dst-wall-clock-arithmetic.md)
 
 ### sql
+- [Diff two table snapshots with `EXCEPT` / `INTERSECT` (and why a join misses NULL rows)](sql/except-intersect-table-diff.md)
 - [Conditional aggregates with `FILTER (WHERE ...)`](sql/filter-clause-conditional-aggregates.md)
 - [`group_concat(x, sep ORDER BY ...)` gives a deterministic order (SQLite 3.44+)](sql/group-concat-order-by.md)
 - [Compare a row with the previous one using `LAG()` / `LEAD()`](sql/lag-lead-previous-row.md)
