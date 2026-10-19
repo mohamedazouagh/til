@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**41 notes** across 6 topics
+**42 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -37,6 +37,7 @@ Regenerate the index with `python build_index.py`.
 
 ### python
 - [Map numbers to bands with `bisect` instead of an if/elif ladder](python/bisect-range-lookup.md)
+- [Layered settings with `collections.ChainMap` instead of merging dicts](python/chainmap-layered-config.md)
 - [Diff two tallies with `Counter` arithmetic](python/counter-arithmetic.md)
 - [Use `field(default_factory=list)` for mutable dataclass defaults](python/dataclass-default-factory.md)
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
