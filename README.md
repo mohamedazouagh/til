@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**42 notes** across 6 topics
+**43 notes** across 6 topics
 
 ### data
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
@@ -61,6 +61,7 @@ Regenerate the index with `python build_index.py`.
 - [Fill missing dates with a recursive CTE](sql/recursive-cte-fill-date-gaps.md)
 - [Keep the latest row per group with `ROW_NUMBER()`](sql/row-number-latest-per-group.md)
 - [Running totals with `SUM() OVER (ORDER BY ...)`](sql/running-total-window.md)
+- [Monthly totals in SQLite with `strftime('%Y-%m', ts)`](sql/strftime-group-by-month.md)
 - [Upsert in SQLite with `ON CONFLICT ... DO UPDATE`](sql/upsert-on-conflict.md)
 - [A running total with `ORDER BY` alone lumps ties together (default frame is `RANGE`)](sql/window-default-frame-range-ties.md)
 
