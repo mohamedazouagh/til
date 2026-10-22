@@ -8,9 +8,10 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**45 notes** across 6 topics
+**46 notes** across 6 topics
 
 ### data
+- [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
 - [Serialise dates and Decimals with `json.dumps(default=...)`](data/json-dumps-default-hook.md)
 
