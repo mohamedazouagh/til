@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**46 notes** across 6 topics
+**48 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -42,6 +42,7 @@ Regenerate the index with `python build_index.py`.
 - [Layered settings with `collections.ChainMap` instead of merging dicts](python/chainmap-layered-config.md)
 - [Diff two tallies with `Counter` arithmetic](python/counter-arithmetic.md)
 - [Use `field(default_factory=list)` for mutable dataclass defaults](python/dataclass-default-factory.md)
+- [Top-n with `heapq.nlargest` / `nsmallest` instead of sorting everything](python/heapq-nlargest-top-n.md)
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
 - [`itertools.groupby` only groups neighbours — sort first](python/itertools-groupby-needs-sorting.md)
 - [Memoise with `functools.lru_cache` and check it with `cache_info()`](python/lru-cache-cache-info.md)
@@ -66,6 +67,7 @@ Regenerate the index with `python build_index.py`.
 - [Running totals with `SUM() OVER (ORDER BY ...)`](sql/running-total-window.md)
 - [Monthly totals in SQLite with `strftime('%Y-%m', ts)`](sql/strftime-group-by-month.md)
 - [Upsert in SQLite with `ON CONFLICT ... DO UPDATE`](sql/upsert-on-conflict.md)
+- [`WHERE` filters rows before grouping, `HAVING` filters groups after](sql/where-vs-having.md)
 - [A running total with `ORDER BY` alone lumps ties together (default frame is `RANGE`)](sql/window-default-frame-range-ties.md)
 
 <!-- index:end -->
