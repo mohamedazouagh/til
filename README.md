@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**49 notes** across 6 topics
+**50 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -64,6 +64,7 @@ Regenerate the index with `python build_index.py`.
 - [Divide safely with `NULLIF(x, 0)` (and `COALESCE` if you want a number back)](sql/nullif-safe-division.md)
 - [Sort by a custom order with `ORDER BY CASE`](sql/order-by-case-custom-order.md)
 - [Fill missing dates with a recursive CTE](sql/recursive-cte-fill-date-gaps.md)
+- [Get the changed rows back with `RETURNING` (SQLite 3.35+)](sql/returning-clause.md)
 - [Keep the latest row per group with `ROW_NUMBER()`](sql/row-number-latest-per-group.md)
 - [Running totals with `SUM() OVER (ORDER BY ...)`](sql/running-total-window.md)
 - [Monthly totals in SQLite with `strftime('%Y-%m', ts)`](sql/strftime-group-by-month.md)
