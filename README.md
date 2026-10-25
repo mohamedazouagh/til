@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**48 notes** across 6 topics
+**49 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -34,6 +34,7 @@ Regenerate the index with `python build_index.py`.
 - [One missing value turns an int column into float; `Int64` keeps it integer](pandas/nullable-int64-dtype.md)
 - [`pivot` refuses duplicates, `pivot_table` aggregates them](pandas/pivot-vs-pivot-table.md)
 - [`rolling(3)` vs. `rolling("3D")` on irregular dates](pandas/rolling-time-window-irregular-dates.md)
+- [Pull columns out of text with `str.extract` and named groups](pandas/str-extract-named-groups.md)
 - [Parse messy number columns with `pd.to_numeric(errors="coerce")`](pandas/to-numeric-errors-coerce.md)
 - [Percentages straight from `value_counts`](pandas/value-counts-normalize.md)
 
