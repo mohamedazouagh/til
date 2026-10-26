@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**50 notes** across 6 topics
+**51 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -46,6 +46,7 @@ Regenerate the index with `python build_index.py`.
 - [Top-n with `heapq.nlargest` / `nsmallest` instead of sorting everything](python/heapq-nlargest-top-n.md)
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
 - [`itertools.groupby` only groups neighbours — sort first](python/itertools-groupby-needs-sorting.md)
+- [Consecutive differences with `itertools.pairwise`](python/itertools-pairwise-consecutive-diffs.md)
 - [Memoise with `functools.lru_cache` and check it with `cache_info()`](python/lru-cache-cache-info.md)
 - [Compare floats with `math.isclose`, and add `abs_tol` near zero](python/math-isclose-abs-tol.md)
 - [Strip a prefix with `str.removeprefix`, not `lstrip`](python/removeprefix-vs-lstrip.md)
