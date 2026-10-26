@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**51 notes** across 6 topics
+**52 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -27,6 +27,7 @@ Regenerate the index with `python build_index.py`.
 ### pandas
 - [Two-way counts and row shares with `pd.crosstab`](pandas/crosstab-margins-normalize.md)
 - [Binning numbers: `pd.cut` vs `pd.qcut`](pandas/cut-vs-qcut.md)
+- [Latest row per key with `drop_duplicates(keep="last")`, and `keep=False` to see all duplicates](pandas/drop-duplicates-keep-last.md)
 - [One row per list item with `DataFrame.explode`](pandas/explode-list-column.md)
 - [Per-group shares with `groupby().transform`](pandas/groupby-transform-share.md)
 - [Join on the nearest earlier date with `pd.merge_asof`](pandas/merge-asof-nearest-earlier.md)
