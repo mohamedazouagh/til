@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**53 notes** across 6 topics
+**54 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -31,6 +31,7 @@ Regenerate the index with `python build_index.py`.
 - [Latest row per key with `drop_duplicates(keep="last")`, and `keep=False` to see all duplicates](pandas/drop-duplicates-keep-last.md)
 - [One row per list item with `DataFrame.explode`](pandas/explode-list-column.md)
 - [Per-group shares with `groupby().transform`](pandas/groupby-transform-share.md)
+- [Flatten nested JSON with `pd.json_normalize` (and `record_path` for lists)](pandas/json-normalize-nested-records.md)
 - [Join on the nearest earlier date with `pd.merge_asof`](pandas/merge-asof-nearest-earlier.md)
 - [Find rows missing from the other table with `merge(indicator=True)`](pandas/merge-indicator-anti-join.md)
 - [One missing value turns an int column into float; `Int64` keeps it integer](pandas/nullable-int64-dtype.md)
