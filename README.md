@@ -8,12 +8,13 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**52 notes** across 6 topics
+**53 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
 - [Detect a CSV's delimiter with `csv.Sniffer`](data/csv-sniffer-delimiter.md)
 - [Serialise dates and Decimals with `json.dumps(default=...)`](data/json-dumps-default-hook.md)
+- [Read TOML config with the stdlib `tomllib` (Python 3.11+)](data/tomllib-read-config.md)
 
 ### git
 - [Fold a late fix into an older commit with `--fixup` and `--autosquash`](git/commit-fixup-autosquash.md)
