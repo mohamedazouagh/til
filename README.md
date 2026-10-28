@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**55 notes** across 6 topics
+**56 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -53,6 +53,7 @@ Regenerate the index with `python build_index.py`.
 - [Memoise with `functools.lru_cache` and check it with `cache_info()`](python/lru-cache-cache-info.md)
 - [Compare floats with `math.isclose`, and add `abs_tol` near zero](python/math-isclose-abs-tol.md)
 - [Strip a prefix with `str.removeprefix`, not `lstrip`](python/removeprefix-vs-lstrip.md)
+- [`round()` rounds ties to even; use `Decimal.quantize` for half-up](python/round-half-even-decimal.md)
 - [Self-documenting f-strings with `=`](python/self-documenting-f-strings.md)
 - [Sort by several keys, some descending](python/sort-multiple-keys.md)
 - [`statistics.quantiles` has two methods, and the default differs from pandas](python/statistics-quantiles-methods.md)
