@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**56 notes** across 6 topics
+**57 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -19,6 +19,7 @@ Regenerate the index with `python build_index.py`.
 ### git
 - [Fold a late fix into an older commit with `--fixup` and `--autosquash`](git/commit-fixup-autosquash.md)
 - [Find when a string appeared or vanished with `git log -S` / `-G`](git/log-pickaxe-s-vs-g.md)
+- [Bring back one file from an older commit with `git restore --source`](git/restore-file-from-older-commit.md)
 
 ### ml
 - [Stable train/test splits by hashing IDs](ml/hash-based-train-test-split.md)
