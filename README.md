@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**58 notes** across 6 topics
+**60 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -49,6 +49,7 @@ Regenerate the index with `python build_index.py`.
 - [Diff two tallies with `Counter` arithmetic](python/counter-arithmetic.md)
 - [Use `field(default_factory=list)` for mutable dataclass defaults](python/dataclass-default-factory.md)
 - [Top-n with `heapq.nlargest` / `nsmallest` instead of sorting everything](python/heapq-nlargest-top-n.md)
+- [Running totals, running max and compounding with `itertools.accumulate`](python/itertools-accumulate-running-values.md)
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
 - [`itertools.groupby` only groups neighbours — sort first](python/itertools-groupby-needs-sorting.md)
 - [Consecutive differences with `itertools.pairwise`](python/itertools-pairwise-consecutive-diffs.md)
@@ -75,6 +76,7 @@ Regenerate the index with `python build_index.py`.
 - [Get the changed rows back with `RETURNING` (SQLite 3.35+)](sql/returning-clause.md)
 - [Keep the latest row per group with `ROW_NUMBER()`](sql/row-number-latest-per-group.md)
 - [Running totals with `SUM() OVER (ORDER BY ...)`](sql/running-total-window.md)
+- [Query JSON columns in SQLite with `->>` and `json_each`](sql/sqlite-json-extract-json-each.md)
 - [Monthly totals in SQLite with `strftime('%Y-%m', ts)`](sql/strftime-group-by-month.md)
 - [Upsert in SQLite with `ON CONFLICT ... DO UPDATE`](sql/upsert-on-conflict.md)
 - [`WHERE` filters rows before grouping, `HAVING` filters groups after](sql/where-vs-having.md)
