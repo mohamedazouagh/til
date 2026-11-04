@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**64 notes** across 6 topics
+**65 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -72,6 +72,7 @@ Regenerate the index with `python build_index.py`.
 - [`group_concat(x, sep ORDER BY ...)` gives a deterministic order (SQLite 3.44+)](sql/group-concat-order-by.md)
 - [Keyset pagination instead of `LIMIT ... OFFSET`](sql/keyset-pagination.md)
 - [Compare a row with the previous one using `LAG()` / `LEAD()`](sql/lag-lead-previous-row.md)
+- [`LEFT JOIN` + `COUNT(*)` counts 1 for customers with no orders](sql/left-join-count-star-trap.md)
 - [`NOT IN` returns nothing when the subquery contains a NULL](sql/not-in-null-trap.md)
 - [Split ranked rows into equal-sized buckets with `NTILE(n)`](sql/ntile-equal-buckets.md)
 - [Divide safely with `NULLIF(x, 0)` (and `COALESCE` if you want a number back)](sql/nullif-safe-division.md)
