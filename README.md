@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**65 notes** across 6 topics
+**66 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -63,6 +63,7 @@ Regenerate the index with `python build_index.py`.
 - [Sort by several keys, some descending](python/sort-multiple-keys.md)
 - [`statistics.quantiles` has two methods, and the default differs from pandas](python/statistics-quantiles-methods.md)
 - [Parse `key=value` lines with `str.partition`](python/str-partition-key-value.md)
+- [Replace or delete many characters in one pass with `str.translate`](python/str-translate-maketrans.md)
 - [Catch length mismatches with `zip(strict=True)`](python/zip-strict.md)
 - [Adding a `timedelta` to a `zoneinfo` datetime is wall-clock arithmetic, not elapsed time](python/zoneinfo-dst-wall-clock-arithmetic.md)
 
