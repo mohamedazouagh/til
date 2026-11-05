@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**67 notes** across 6 topics
+**68 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -50,6 +50,7 @@ Regenerate the index with `python build_index.py`.
 - [Diff two tallies with `Counter` arithmetic](python/counter-arithmetic.md)
 - [Use `field(default_factory=list)` for mutable dataclass defaults](python/dataclass-default-factory.md)
 - [Keep only the last N items with `deque(maxlen=N)`](python/deque-maxlen-last-n.md)
+- [Fuzzy-match messy column names with `difflib.get_close_matches`](python/difflib-get-close-matches.md)
 - [Top-n with `heapq.nlargest` / `nsmallest` instead of sorting everything](python/heapq-nlargest-top-n.md)
 - [Running totals, running max and compounding with `itertools.accumulate`](python/itertools-accumulate-running-values.md)
 - [Chunk an iterable with `itertools.batched`](python/itertools-batched.md)
