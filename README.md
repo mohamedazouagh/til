@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**66 notes** across 6 topics
+**67 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -78,6 +78,7 @@ Regenerate the index with `python build_index.py`.
 - [Split ranked rows into equal-sized buckets with `NTILE(n)`](sql/ntile-equal-buckets.md)
 - [Divide safely with `NULLIF(x, 0)` (and `COALESCE` if you want a number back)](sql/nullif-safe-division.md)
 - [Sort by a custom order with `ORDER BY CASE`](sql/order-by-case-custom-order.md)
+- [Index only the rows you query with a partial index (`CREATE INDEX ... WHERE`)](sql/partial-index-where.md)
 - [Fill missing dates with a recursive CTE](sql/recursive-cte-fill-date-gaps.md)
 - [Get the changed rows back with `RETURNING` (SQLite 3.35+)](sql/returning-clause.md)
 - [Keep the latest row per group with `ROW_NUMBER()`](sql/row-number-latest-per-group.md)
