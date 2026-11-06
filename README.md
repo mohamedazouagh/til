@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**68 notes** across 6 topics
+**69 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -33,6 +33,7 @@ Regenerate the index with `python build_index.py`.
 - [One row per list item with `DataFrame.explode`](pandas/explode-list-column.md)
 - [Per-group shares with `groupby().transform`](pandas/groupby-transform-share.md)
 - [Group by a column and a time period at once with `pd.Grouper`](pandas/grouper-weekly-per-key.md)
+- [Interpolate only short gaps with `limit_area` and a gap-length mask](pandas/interpolate-short-gaps-only.md)
 - [Flatten nested JSON with `pd.json_normalize` (and `record_path` for lists)](pandas/json-normalize-nested-records.md)
 - [Wide to long with `pd.melt` (and back with `pivot`)](pandas/melt-wide-to-long.md)
 - [Join on the nearest earlier date with `pd.merge_asof`](pandas/merge-asof-nearest-earlier.md)
