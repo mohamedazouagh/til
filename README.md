@@ -8,7 +8,7 @@ Regenerate the index with `python build_index.py`.
 ## Index
 
 <!-- index:start -->
-**69 notes** across 6 topics
+**70 notes** across 6 topics
 
 ### data
 - [`csv.DictWriter`: `restval` for missing keys, `extrasaction` for extra ones](data/csv-dictwriter-restval-extrasaction.md)
@@ -17,6 +17,7 @@ Regenerate the index with `python build_index.py`.
 - [Read TOML config with the stdlib `tomllib` (Python 3.11+)](data/tomllib-read-config.md)
 
 ### git
+- [Find the commit that broke something with `git bisect run`](git/bisect-run-automated.md)
 - [Fold a late fix into an older commit with `--fixup` and `--autosquash`](git/commit-fixup-autosquash.md)
 - [Find when a string appeared or vanished with `git log -S` / `-G`](git/log-pickaxe-s-vs-g.md)
 - [Bring back one file from an older commit with `git restore --source`](git/restore-file-from-older-commit.md)
